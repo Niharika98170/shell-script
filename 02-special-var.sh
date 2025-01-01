@@ -7,4 +7,5 @@ echo "Present working directory: $PWD"
 echo "Home directorty of current user: $HOME"
 echo "Which user is running the script: $USER"
 echo "Procees id of current script: $$"
+sleep 60
 echo "Process id of lasr command in background: $!"
