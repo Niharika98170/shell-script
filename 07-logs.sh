@@ -5,7 +5,7 @@ R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
 LOGS_FOLDER="/Var/logs/shell-script-logs"
-LOG_FILE=$(ECHO $O | cut -d "." -f1 )
+LOG_FILE=$(echo $O | cut -d "." -f1 )
 TIMESTAMP=$(date +%y-%m-%y-%H-%S)
 LOG_FILE_NAME="$LOGS_FOLDER/$LOGS_FILE/$TIMESTAMP.log"
 
